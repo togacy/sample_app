@@ -92,6 +92,6 @@ end
 Capybara.configure do |config|
   config.run_server = false
   config.current_driver = :selenium
-  config.app = "fake app name"
+  config.app = "sample_app"
   config.app_host = "http://localhost:3000#{@test_url}"
 end
